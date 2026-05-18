@@ -1,0 +1,9 @@
+{
+  "name": "getOpenId",
+  "version": "1.0.0",
+  "description": "静默登录，获取用户OpenId",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}

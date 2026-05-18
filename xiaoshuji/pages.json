@@ -1,0 +1,152 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"appid": "wx66e13e66977240b1",
+	"singlePage": {
+		"navigationBarFit": "squeezed"
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/guide/guideIndex",
+			"style": {
+				"navigationBarTitleText": "探索"
+			}
+		},
+		{
+			"path": "pages/heritage/heritageList",
+			"style": {
+				"navigationBarTitleText": "非遗导览"
+			}
+		},
+		{
+			"path": "pages/heritage/heritageDetail",
+			"style": {
+				"navigationBarTitleText": "非遗详情",
+				"navigationBarBackgroundColor": "#e64340",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/scenic/scenicList",
+			"style": {
+				"navigationBarTitleText": "景点导览"
+			}
+		},
+		{
+			"path": "pages/scenic/scenicDetail",
+			"style": {
+				"navigationBarTitleText": "景点详情",
+				"navigationBarBackgroundColor": "#3399ff",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		// 路线选择页
+		{
+			"path": "pages/route/routeSelect",
+			"style": {
+				"navigationBarTitleText": "路线规划",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 地图规划页
+		{
+			"path": "pages/route/route",
+			"style": {
+				"navigationBarTitleText": "地图导航",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 我的路线页
+		{
+			"path": "pages/route/myRoutes",
+			"style": {
+				"navigationBarTitleText": "我的路线",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/checkin/checkin",
+			"style": {
+				"navigationBarTitleText": "打卡"
+			}
+		},
+		{
+			"path": "pages/checkin/myCheckin",
+			"style": {
+				"navigationBarTitleText": "我的打卡"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/mine/favorites",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/mine/feedback",
+			"style": {
+				"navigationBarTitleText": "问题反馈",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "四川非遗文旅导览",
+		"navigationBarBackgroundColor": "#E64340",
+		"backgroundColor": "#F8F8F8",
+		"lazyCodeLoading": "requiredComponents"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#E64340",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home-active.png"
+			},
+			{
+				"pagePath": "pages/guide/guideIndex",
+				"text": "探索",
+				"iconPath": "static/icon/guide.png",
+				"selectedIconPath": "static/icon/guide-active.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/icon/mine.png",
+				"selectedIconPath": "static/icon/mine-active.png"
+			}
+		]
+	}
+}

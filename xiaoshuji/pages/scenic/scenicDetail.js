@@ -1,0 +1,5 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "景点详情",
+  "navigationStyle": "custom"
+}

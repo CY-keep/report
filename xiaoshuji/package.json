@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "docx": "^9.6.1"
+  },
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.5.12"
+  }
+}
